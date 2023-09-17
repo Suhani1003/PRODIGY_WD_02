@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Design Stopwatch using HTML CSS and JavaScript</title>
+	<link rel="stylesheet" href="sw.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+      </style>
+</head>
+
+<body>
+	<div class="container">
+        <div class="content">
+            <h3>Stopwatch and Timer</h3>
+            <p class="type">Clock</p>
+        </div>
+        <div class="stopwatch">
+            <div class="wrapper">
+              <div class="main">
+               
+                <!-- <div class="hour">
+                    <p class="number" id="hr">00</p>
+                    <p>hours</p>
+                  </div>
+                  <p class="colon">:</p>
+                  <div class="min">
+                    <p class="number txt">00</p>
+                    <p>minutes</p>
+                  </div>
+                  <p class="colon">:</p>
+                
+                  <div class="sec">
+                    <p class="number"  id="sec">00</p>
+                    <p>seconds</p>
+                  </div>
+                  <p class="colon">:</p>
+                  <div class="milliseconds">
+                    <p class="number" id="count">00</p>
+                    <p>milliseconds</p>
+                  </div> -->
+                 <div class="hour">
+                    <span class="digit number" id="hr">
+                        00</span>
+                   <p>hours</p>
+                 </div>
+                 <p class="colon"> :</p>
+                <div class="min">
+                    <span class="digit number" id="min">
+                        00</span>
+                    <p>minutes</p>
+                </div>
+                <p class="colon"> :</p>
+
+                <div class="sec">
+                    <span class="digit number" id="sec">
+                    00</span>
+                <p>seconds</p>
+                </div>
+                <p class="colon"> :</p>
+                <div class="ms">
+                    <span class="digit number" id="count">
+                        00</span>
+                        <p>milliseconds</p>
+                </div>
+              </div>
+            </div>
+		
+		<div id="buttons" class="btns">
+			<button class="btn" id="start">
+				Start</button>
+			<button class="btn" id="stop">
+				Stop</button>
+			<button class="btn" id="reset">
+				Reset</button>
+		</div>
+	</div>
+
+	<script src="sw.js"></script>
+</body>
+
+</html>
